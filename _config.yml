@@ -1,0 +1,23 @@
+title: Morgane Rouvroy
+description: My Personal Portfolio
+author: Morgane Rouvroy
+logo: /static/img/avatar.png
+github: https://github.com/MorganeRouvroy
+email: morgane.rouvroy@grenoble-inp.org
+about: Engineering student in applied mathematics and computer science
+
+theme_skin: turquoise # blue turquoise green berry orange ceramic
+
+baseurl: ""
+url: ""
+
+allowsearch: true
+
+enableTags: true
+tagarray: []
+
+paginate: 20
+per_page: 20
+paginate_path: "/page:num/"
+markdown: kramdown
+gems: [jekyll-paginate, jekyll-gist]

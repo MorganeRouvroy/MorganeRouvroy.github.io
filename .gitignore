@@ -1,0 +1,7 @@
+Gemfile.lock
+_site/
+_posts/
+category/
+*~
+.sass-cache/
+.jekyll-metadata

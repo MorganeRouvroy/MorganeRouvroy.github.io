@@ -1,0 +1,23 @@
+[
+	{
+		"name": "Blobwar AI",
+		"image": "/blobwar/blobwar.jpg",
+		"url": "/projects/blobwarAI/",
+		"date": "Apr 2018",
+		"tags": ["Rust","AI"]
+	},
+	{
+		"name": "Dinosaur scene",
+		"image": "/dino/dino.png",
+		"url": "/projects/dinosaur3D",
+		"date": "May 2018",
+		"tags": ["3D","Python", "OpenGL4", "animation"]
+	},
+	{
+		"name": "Multi-agent simulation",
+		"image": "/boids/boids.png",
+		"url": "/projects/boids",
+		"date": "Nov 2017",
+		"tags": ["Java","AI", "boids", "cellular automaton"]
+	}
+]

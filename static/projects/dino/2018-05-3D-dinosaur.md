@@ -45,7 +45,7 @@ This project was the opportunity to implement and try several rendering effects,
 To prevent abrupt disappearance of object when they go out of the camera viewing distance, a fog effect applies on all objects of the scene, making them seem to disappear gradually.
 
 **Water**\\
-The water requires 3 pass to be rendered. The first two pass
+The water requires 3 pass to be rendered.
 The first two passes allow to store respectively everything above and below the water in buffers. These two textures are then used as reflection and refraction textures for final rendering.\\
 For more realism, several effects have been added to the water. A normal map, determine the normal of the water surface and amplifies its relief. The water is also animated using a DuDv map, allowing to distort directly in the shader the textures, giving an illusion of movement. Similarly, a Fresnel effect has been added: depending on the camera's inclination with respect to the water, refraction and reflection more or less predominate in the final texture of the water. Effects of specular light have also been added. Finally, water depth is taken into account for several effects, in particular the softening of the edges: the closer we get to the water/land boundaries, the more transparent the water becomes, allowing a smooth transition with the terrain.
 

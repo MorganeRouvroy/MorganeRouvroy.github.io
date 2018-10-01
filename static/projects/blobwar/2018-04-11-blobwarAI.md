@@ -14,7 +14,7 @@ The aim was to develop an AI for a board game named Blobwar and compete with the
 
 I was personally responsible for :
    * Implementation of the basic alpha-beta pruning algorithm
-   * Research optimisations -inspiresd by the game of Go - : killer heuristic, transposition tables, sorting of the nodes.
+   * Research optimisations -inspired by the game of Go - : killer heuristic, transposition tables, sorting of the nodes.
 
 ### Blobwar game
 

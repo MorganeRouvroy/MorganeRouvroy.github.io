@@ -5,12 +5,12 @@ date: 2018-05-08
 permalink: /projects/dinosaur3D/
 ---
 
-# 3D scene : dinosaur (Python / OpenGL4)
+# 3D engine : dinosaur scene (Python / OpenGL4)
 _Contributors: Mathieu Tillet_
 <hr />
 
 This project was the final assignment for the **3D computer graphics** course.
-We were required to provide solutions for the modeling, rendering, animation and interaction of a prehistoric dinosaur scene, with animated and/or interactive elements.
+We were required to create a 3D engine, providing solutions for the modeling, rendering, animation and interaction of a prehistoric dinosaur scene, with animated and/or interactive elements.
 
 Click the image to see a small demo of the result:
 [![](/static/projects/dino/dino_demo_cover.jpg){: .center-image}](/static/projects/dino/dino_demo.mp4)

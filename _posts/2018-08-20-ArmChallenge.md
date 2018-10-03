@@ -2,7 +2,6 @@
 layout: post
 title: 2018 Arm Intern Innovation Challenge
 date: 2018-08-20
-categories: Challenge
 ---
 
 # 2018 Arm Intern Innovation Challenge

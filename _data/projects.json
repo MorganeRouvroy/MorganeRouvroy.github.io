@@ -1,5 +1,12 @@
 [
 	{
+		"name": "3D engine : dinosaur",
+		"image": "/dino/dino.png",
+		"url": "/projects/dinosaur3D",
+		"date": "May 2018",
+		"tags": ["3D","Python", "OpenGL4", "animation"]
+	},
+	{
 		"name": "Blobwar AI",
 		"image": "/blobwar/blobwar.jpg",
 		"url": "/projects/blobwarAI/",
@@ -7,17 +14,24 @@
 		"tags": ["Rust","AI"]
 	},
 	{
-		"name": "Dinosaur scene",
-		"image": "/dino/dino.png",
-		"url": "/projects/dinosaur3D",
-		"date": "May 2018",
-		"tags": ["3D","Python", "OpenGL4", "animation"]
+		"name": "Deca compiler",
+		"image": "/GL/GL.png",
+		"url": "/projects/deca/",
+		"date": "Jan 2018 - Feb 2018",
+		"tags": ["Java"]
 	},
 	{
 		"name": "Multi-agent simulation",
 		"image": "/boids/boids.png",
 		"url": "/projects/boids",
 		"date": "Nov 2017",
-		"tags": ["Java","AI", "boids", "cellular automaton"]
+		"tags": ["Java","AI"]
+	},
+	{
+		"name": "GUI library for programmers",
+		"image": "/GUI/GUI.PNG",
+		"url": "/projects/GUI/",
+		"date": "May 2017 - Jun 2017",
+		"tags": ["C"]
 	}
 ]

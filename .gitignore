@@ -4,3 +4,4 @@ category/
 *~
 .sass-cache/
 .jekyll-metadata
+.vs*

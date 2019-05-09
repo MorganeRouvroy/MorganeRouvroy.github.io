@@ -32,7 +32,7 @@ sidebar:
 
       - item: Drawing
         link:
-      - item: Travelling
+      - item: Traveling
         link:
 
       - item: Video games
@@ -43,10 +43,24 @@ career-profile:
     summary: |
         I am a last year French engineering student in applied mathematics and computer science at the Grenoble Institute of Technology - ENSIMAG.
 
-        I'm currently seeking a 6-month internship, starting in February/March 2019, in Software Engineering where I could apply my knowledge and skills.
+        I will be graduating in September 2019, and am looking for my first full-time job, where I could apply my knowledge and skills.
         I particulary like Machine Learning and 3D graphics and am always on the lookout for new challenges to tackle !
 
 experiences:
+    - role: R&D Software Engineering Intern
+      time: Mar 2019 - Aug 2019
+      company: Dassault Systems, Vélizy-Villacoublay - France
+      details: |
+        I worked 6 months as a Software Engineering intern in Dassault Systems's Virtual Human team. This team aims 
+        at providing Dassault Systems's customers with human avatars to use in 3D simulations during product conception. 
+        These need to be able to interact as realistically as possible with their environment, while still being user friendly
+        in their usage.
+        
+        My work consisted in the designing and coding of a smart hand posturing engine,
+        allowing 3D avatars to grab objects in a realistic way. Methods implemented include both an analytic 
+        decision tree algorithm and Deep Learning neural networks. 
+        
+
     - role: Software Engineering Intern
       time: Jun 2018 - Aug 2018
       company: Arm Ltd., Cambridge - UK

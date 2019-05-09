@@ -53,4 +53,4 @@ For more realism, several effects have been added to the water. A normal map, de
 
 Some effects still need some work and might be added at a further time :
  * **Collision detection** : the current implementation is too slow and was therefore disabled until optimized.
- * **Shaddow mapping**
+ * **Shadow mapping**

@@ -1,7 +1,7 @@
 ﻿[
     {
         "name": "Surface simplification",
-        "image": "/MS/MS.png",
+        "image": "/MS/MS.PNG",
         "url": "/projects/surfaceSimpliﬁcation",
         "date": "Jan 2018",
         "tags": [ "3D", "C++", "OpenGL4" ]

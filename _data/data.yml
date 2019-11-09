@@ -8,12 +8,12 @@ sidebar:
 
     # Profile information
     name: Morgane Rouvroy
-    tagline: Computer Science student
+    tagline: Software Engineer
     avatar: photo_cv.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: morgane.rouvroy@grenoble-inp.org
-    phone: +33(0) 6 82 07 48 30
+    email: morgane.rouvroy@hotmail.com
+    phone: +33(0) 6 82 07 48 30 
     linkedin: morgane-rouvroy
 
     languages:
@@ -41,12 +41,23 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-        I am a last year French engineering student in applied mathematics and computer science at the Grenoble Institute of Technology - ENSIMAG.
+        I am a French Software Engineer freshly graduated from the Grenoble Institute of Technology - ENSIMAG.
+        I recently moved to London and now work there as a Software Engineer for Yellowbrick Data.
 
-        I will be graduating in September 2019, and am looking for my first full-time job, where I could apply my knowledge and skills.
-        I particulary like Machine Learning and 3D graphics and am always on the lookout for new challenges to tackle !
+        I particulary like discovering new things about Computer Science and am always on the lookout for new challenges to tackle !
 
 experiences:
+
+    - role: Software Engineer, Query Planning and Optimization
+      time: Sep 2019 - now 
+      company: Yellowbrick Data, London - UK
+      details: |
+        I'm currently working as a Software Engineer in Yellowbrick Data, specifically on improving and optimizing the query planning.
+        As a data warehouse startup, Yellowbrick aims at delivering a highly performant analytic database while still keeping
+        it simple for the customers to use.
+
+        My work involves optimizing and fixing any issues in the planner, so that queries can be run faster and more efficiently on our hardware.
+
     - role: R&D Software Engineering Intern
       time: Mar 2019 - Aug 2019
       company: Dassault Systems, Vélizy-Villacoublay - France
@@ -103,7 +114,7 @@ voluntering:
 education:
     - degree: MSc in Computer Science
       university: Grenoble Institute of Technology - ENSIMAG
-      time: 2016 - 2019 (present)
+      time: 2016 - 2019
       details: |
         Specialization in Image, virtual reality and multimedia.
         Courses include :
@@ -183,13 +194,13 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python
+      - name: C
         level: 95%
 
       - name: C++
         level: 85%
 
-      - name: C
+      - name: Python
         level: 80%
 
       - name: Java
@@ -198,8 +209,11 @@ skills:
       - name: Git
         level: 75%
 
-      - name: R
-        level: 69%
-
       - name: SQL
+        level: 75%
+
+      - name: R
         level: 65%
+
+      - name: Rust
+        level: 59%

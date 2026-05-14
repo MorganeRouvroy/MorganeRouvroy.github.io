@@ -32,6 +32,39 @@ export type WritingNote = {
 
 export const projectCaseStudies: ProjectCaseStudy[] = [
   {
+    slug: "building-interoperability-rust-quarkus-c",
+    title: "Building with Rust Inside an Existing Stack",
+    role: "Engineering Culture · Systems Architecture",
+    period: "FloeDB",
+    image: "/covers/rust-quarkus-c-cover.svg",
+    imageAlt: "Metadata interoperability architecture and cross-system integration",
+    highlight: true,
+    legacyMarkdownPath:
+      "/projects/posts/2026-building-interoperability-rust-quarkus-c.md",
+    summary:
+      "Written during the very early days of Floe, this post reflects on how technical decisions emerge through constraints, discussion, and experimentation.",
+    tags: ["Engineering Culture", "Systems Architecture", "Floe"],
+    details: [],
+    constraints: [
+      "Different stack layers have different constraints around deployment and integration.",
+      "Cross-language boundaries require careful interface design and ownership clarity.",
+    ],
+    architecture: [
+      "Architecture decisions were driven by interoperability, not just component performance.",
+      "Planner-friendly metadata access shaped the core integration strategy.",
+    ],
+    outcomes: [
+      "A cohesive interoperability direction across heterogeneous systems.",
+      "Better operational and architectural understanding of multi-language infrastructure.",
+    ],
+    links: [
+      {
+        label: "Read the full article at FloeDB",
+        href: "https://floedb.ai/blog/rust-quarkus-c",
+      },
+    ],
+  },
+  {
     slug: "join-elimination-analytical-query-planners",
     title: "Join Elimination in Analytical Query Planners",
     role: "Database Systems · Query Optimization · SQL",
@@ -79,57 +112,54 @@ export const projectCaseStudies: ProjectCaseStudy[] = [
     ],
   },
   {
-    slug: "building-interoperability-rust-quarkus-c",
-    title: "Building with Rust Inside an Existing Stack",
-    role: "Engineering Culture · Systems Architecture",
-    period: "FloeDB",
-    image: "/covers/rust-quarkus-c-cover.svg",
-    imageAlt: "Metadata interoperability architecture and cross-system integration",
-    highlight: true,
-    legacyMarkdownPath:
-      "/projects/posts/2026-building-interoperability-rust-quarkus-c.md",
+    slug: "toubab-dialaw-2017",
+    title: "Toubab Dialaw, 2017",
+    role: "Community Projects · Education · Senegal",
+    period: "Solida'rire",
+    image: "/covers/toubab-dialaw-cover.png",
+    imageAlt: "Classroom building site in Toubab Dialaw, Senegal",
+    legacyMarkdownPath: "/projects/posts/2026-toubab-dialaw.md",
     summary:
-      "Written during the very early days of Floe, this post reflects on how technical decisions emerge through constraints, discussion, and experimentation.",
-    tags: ["Engineering Culture", "Systems Architecture", "Floe"],
-    details: [],
-    constraints: [
-      "Different stack layers have different constraints around deployment and integration.",
-      "Cross-language boundaries require careful interface design and ownership clarity.",
-    ],
-    architecture: [
-      "Architecture decisions were driven by interoperability, not just component performance.",
-      "Planner-friendly metadata access shaped the core integration strategy.",
-    ],
-    outcomes: [
-      "A cohesive interoperability direction across heterogeneous systems.",
-      "Better operational and architectural understanding of multi-language infrastructure.",
-    ],
-    links: [
-      {
-        label: "Read the full article at FloeDB",
-        href: "https://floedb.ai/blog/rust-quarkus-c",
-      },
-    ],
-  },
-  {
-    slug: "escuelita-de-los-llanos",
-    title: "Escuelita de los Llanos",
-    role: "Education · Venezuela · Community Projects",
-    period: "Personal",
-    image: "/covers/escuelita-llanos.jpg",
-    imageAlt: "Escuelita de los Llanos school grounds and community space",
-    legacyMarkdownPath: "/projects/posts/2026-escuelita-de-los-llanos.md",
-    summary:
-      "A childhood memory from Venezuela: fundraising for a rural education project, and what I still carry from a school exchange with students from Los Llanos.",
-    tags: ["Personal", "Venezuela", "Education"],
+      "A student-run solidarity project in Senegal: fundraising, building classrooms, and learning how long-term projects are really carried forward.",
+    tags: ["Personal", "Senegal", "Education", "Community Projects"],
     details: [],
     constraints: [],
     architecture: [],
     outcomes: [],
     links: [
       {
-        label: "Escuelita de los Llanos",
-        href: "https://cfcaracas.org/vie-de-letablissement/escuelita-de-los-llanos/",
+        label: "Project presentation — Echosciences Grenoble",
+        href: "https://www.echosciences-grenoble.fr/projets/projet-toubab-dialaw-2017-construction-de-deux-salles-de-classe-au-senegal",
+      },
+    ],
+  },
+  {
+    slug: "armnn-onnx",
+    title: "ArmNN / ONNX",
+    role: "Machine Learning · C++ · ONNX Parser",
+    period: "ARM · Summer 2018",
+    image: "/covers/armnn-logo.png",
+    imageAlt: "Inference runtime and parser flow visual",
+    legacyMarkdownPath: "/projects/armnn/2018-06-armnn-onnx.md",
+    summary:
+      "As a summer intern in Arm's Machine Learning team, I spent 3 months working on ArmNN's 18.08 release and on designing, prototyping and producing an ONNX parser in C++.",
+    tags: ["Machine Learning", "C++", "ONNX", "Inference"],
+    details: [],
+    constraints: [],
+    architecture: [],
+    outcomes: [],
+    links: [
+      {
+        label: "Internship report",
+        href: "/img/Internship_report.pdf",
+      },
+      {
+        label: "ArmNN",
+        href: "https://github.com/ARM-software/armnn",
+      },
+      {
+        label: "ONNX",
+        href: "https://onnx.ai/",
       },
     ],
   },
@@ -168,40 +198,10 @@ export const projectCaseStudies: ProjectCaseStudy[] = [
     ],
   },
   {
-    slug: "armnn-onnx",
-    title: "ArmNN / ONNX",
-    role: "Machine Learning · C++ · ONNX Parser",
-    period: "Arm · Jun 2018 - Aug 2018",
-    image: "/covers/armnn-logo.png",
-    imageAlt: "Inference runtime and parser flow visual",
-    legacyMarkdownPath: "/projects/armnn/2018-06-armnn-onnx.md",
-    summary:
-      "As a summer intern in Arm's Machine Learning team, I spent 3 months working on ArmNN's 18.08 release and on designing, prototyping and producing an ONNX parser in C++.",
-    tags: ["Machine Learning", "C++", "ONNX", "Inference"],
-    details: [],
-    constraints: [],
-    architecture: [],
-    outcomes: [],
-    links: [
-      {
-        label: "Internship report",
-        href: "/img/Internship_report.pdf",
-      },
-      {
-        label: "ArmNN",
-        href: "https://github.com/ARM-software/armnn",
-      },
-      {
-        label: "ONNX",
-        href: "https://onnx.ai/",
-      },
-    ],
-  },
-  {
     slug: "arm-intern-innovation-challenge",
     title: "2018 Arm Intern Innovation Challenge",
     role: "Data Visualization · SQL",
-    period: "2018",
+    period: "ARM · Summer 2018",
     image: "/img/heatmap.gif",
     imageAlt: "Arm innovation challenge coverage analysis heatmap",
     legacyMarkdownPath: "/projects/arm/2018-08-20-ArmChallenge.md",
@@ -330,6 +330,28 @@ export const projectCaseStudies: ProjectCaseStudy[] = [
     constraints: [],
     architecture: [],
     outcomes: [],
+  },
+  {
+    slug: "escuelita-de-los-llanos",
+    title: "Escuelita de los Llanos",
+    role: "Community Projects · Education · Venezuela",
+    period: "Personal",
+    image: "/covers/escuelita-llanos.jpg",
+    imageAlt: "Escuelita de los Llanos school grounds and community space",
+    legacyMarkdownPath: "/projects/posts/2026-escuelita-de-los-llanos.md",
+    summary:
+      "A childhood memory from Venezuela: fundraising for a rural education project, and what I still carry from a school exchange with students from Los Llanos.",
+    tags: ["Personal", "Venezuela", "Education", "Community Projects"],
+    details: [],
+    constraints: [],
+    architecture: [],
+    outcomes: [],
+    links: [
+      {
+        label: "Escuelita de los Llanos",
+        href: "https://cfcaracas.org/vie-de-letablissement/escuelita-de-los-llanos/",
+      },
+    ],
   },
 ];
 

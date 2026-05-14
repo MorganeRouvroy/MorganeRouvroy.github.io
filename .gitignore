@@ -1,7 +1,11 @@
-Gemfile.lock
-_site/
-category/
-*~
-.sass-cache/
-.jekyll-metadata
+.DS_Store
 .vs*
+*~
+
+# Claude Code workspace
+.claude/
+
+# Next.js
+modern/.next/
+modern/out/
+modern/node_modules/

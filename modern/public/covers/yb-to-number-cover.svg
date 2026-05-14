@@ -1,0 +1,40 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#041322"/>
+      <stop offset="1" stop-color="#0D3554"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(960 640) rotate(17) scale(600 300)">
+      <stop stop-color="#8CD6FF" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#8CD6FF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="720" fill="url(#bg)"/>
+  <rect width="1200" height="720" fill="url(#glow)"/>
+
+  <g opacity="0.09" stroke="#7DB7DC" stroke-width="1">
+    <path d="M0 180H1200"/>
+    <path d="M0 360H1200"/>
+    <path d="M0 540H1200"/>
+  </g>
+
+  <rect x="0" y="0" width="5" height="720" fill="#67AEE1" opacity="0.7"/>
+
+  <text x="80" y="92" fill="#67AEE1" font-family="Menlo, Monaco, monospace" font-size="13" letter-spacing="2">YELLOWBRICK ENGINEERING</text>
+  <text x="80" y="122" fill="#3D7EA8" font-family="Menlo, Monaco, monospace" font-size="13" letter-spacing="2">STORIES FROM THE FIELD</text>
+
+  <g font-family="Avenir Next, Segoe UI, sans-serif" font-size="74" font-weight="600">
+    <text x="80" y="234" fill="#F2F9FF">The Devil Is in the</text>
+    <text x="80" y="328"><tspan fill="#67AEE1">to_number</tspan><tspan fill="#F2F9FF"> Details</tspan></text>
+  </g>
+
+  <line x1="80" y1="362" x2="320" y2="362" stroke="#67AEE1" stroke-width="2" opacity="0.5"/>
+
+  <g fill="#C4E2F5" font-family="Avenir Next, Segoe UI, sans-serif" font-size="44">
+    <text x="80" y="430">Implementing to_number</text>
+    <text x="80" y="484">is more subtle than it looks.</text>
+  </g>
+
+  <text x="80" y="578" fill="#4A8FB8" font-family="Menlo, Monaco, monospace" font-size="26" opacity="0.38">to_number('1,234.56', '9,999.99')</text>
+</svg>

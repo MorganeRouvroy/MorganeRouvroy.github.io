@@ -1,0 +1,37 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#091827"/>
+      <stop offset="1" stop-color="#0E3450"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(960 640) rotate(20) scale(620 300)">
+      <stop stop-color="#91D8FF" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#91D8FF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="720" fill="url(#bg)"/>
+  <rect width="1200" height="720" fill="url(#glow)"/>
+
+  <g opacity="0.09" stroke="#7AB5D6" stroke-width="1">
+    <path d="M0 180H1200"/>
+    <path d="M0 360H1200"/>
+    <path d="M0 540H1200"/>
+  </g>
+
+  <rect x="0" y="0" width="5" height="720" fill="#6EB3E2" opacity="0.7"/>
+
+  <text x="80" y="96" fill="#6EB3E2" font-family="Menlo, Monaco, monospace" font-size="13" letter-spacing="2">FLOEDB</text>
+
+  <g font-family="Avenir Next, Segoe UI, sans-serif" font-size="74" font-weight="600">
+    <text x="80" y="216" fill="#ECF8FF">Building with Rust</text>
+    <text x="80" y="308" fill="#6EB3E2">Inside an Existing Stack</text>
+  </g>
+
+  <line x1="80" y1="340" x2="320" y2="340" stroke="#6EB3E2" stroke-width="2" opacity="0.5"/>
+
+  <g fill="#C4E2F5" font-family="Avenir Next, Segoe UI, sans-serif" font-size="44">
+    <text x="80" y="406">Constraints shape better decisions</text>
+    <text x="80" y="460">than preferences do.</text>
+  </g>
+</svg>
